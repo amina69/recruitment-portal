@@ -56,9 +56,15 @@ li a{
     background:linear-gradient(rgba(0,0,0,0.527),rgba(0,0,0,0.5));
 }
 
+.carousel-item h3 {
+    margin-top: 100px;
+    color: white;
+}
+
 .mainHeader{
     height: 500px;
     color: white;
+    margin: auto
     /*background-image: linear-gradient(rgba(0,0,0,0.527),rgba(0,0,0,0.5)), url('../assets/header1.jpg');*/
 }
 
@@ -98,7 +104,7 @@ li a{
 }
 
 .spacing-one{
-    margin: 30px auto;
+    margin: 50px auto;
 }
 
 .spacing{
