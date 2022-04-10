@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+
+body{
+    color: #494949;
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar-brand img{
+    width: 80px;
+}
+
+.navbar-brand .logo-text{
+    width: 120px
+}
+
+.navbar{
+    background-color: #ffffff;
+}
+
+
+.nav-item .navbar-link {
+    color: rgb(44, 44, 44);
+    font-size: 15px;
+    font-weight: 500;
+    margin: auto 20px;
+    text-decoration: none;
+}
+
+li a{
+    white-space: nowrap;
+}
+    
+
+.navbar-nav{
+    align-items: flex-end;
+    float: right;
+    margin-left: auto;
+    overflow: hidden;
+}
+
+
+.nav-item .navbar-link:hover{
+    border-bottom: 2px #077B8A solid;
+}
+
+    
+.carousel-item:after {
+    content:"";
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background:linear-gradient(rgba(0,0,0,0.527),rgba(0,0,0,0.5));
+}
+
+.mainHeader{
+    height: 500px;
+    color: white;
+    /*background-image: linear-gradient(rgba(0,0,0,0.527),rgba(0,0,0,0.5)), url('../assets/header1.jpg');*/
+}
+
+.carousel-caption{
+    top: 35%;
+    transform: translateY(-35%);
+}
+
+
+.header input{
+    padding: 10px;
+    margin-top: 100px;
+    margin-bottom: 150px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin-right: 20px;
+    width: 300px;
+}
+
+.header .first{
+    width: 400px;
+}
+
+.header button{
+    outline: none;
+    border: 1px white solid;
+    color: white;
+    padding: 10px;
+    background-color: #077B8A;
+    border-radius: 5px;
+    width: 100px;
+}
+
+.header button:hover{
+    border: none;
+}
+
+.spacing-one{
+    margin: 30px auto;
+}
+
+.spacing{
+    margin: 150px auto;
+}
+
+.whyUs-img img{
+    width: 500px;
+    height: 400px;
+}
+
+.whyUs-text h3, .job-text h3{
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.whyUs-text i{
+    color: #077B8A;
+}
+
+.job-card{
+    height: 100%;
+}
+
+.job-card2{
+    height: 100%;
+}
+
+.news-card{
+    height: 400px;
+    width: auto;
+}
+
+.news-card2{
+    height: 400px;
+    width: auto;
+}
+
+.card-title{
+    font-weight: 600;
+}
+
+.text-color{
+    color: #5C3C92
+}
+
+.more-link, .card-footer span:last-child{
+    color: #0232DC;
+}
+
+.more-link:hover, .card-footer span:hover{
+    color: #5C3C92;
+}
+
+.view-btn button{
+    padding: 8px;
+    outline: none;
+    border: none;
+    background-color: white;
+    color: #077B8A;
+    width: 400px;
+    border-radius: 5px;
+    border: 1px solid #077B8A;
+}
+
+.view-btn button:hover{
+    background-color: #077B8A;
+    color: white;
+}
+
+.view, .link-color{
+    color: black
+}
+
+.link-color{
+    color: black;
+    font-weight: 500;
+    position: absolute;
+    bottom: 20px;
+}
+
+.link-color:hover{
+    border-bottom: 2px #077B8A solid;
+    width: 90px;
+}
+
+.card-img-top{
+    height: 200px;
+}
+
+.second-row{
+    padding-top: 0;
+}
+
+.card-img-top2{
+    height: 130px;
+    width: 100px;
+    margin-top: 22px;
+}
+
+.card-case{
+    width: 100%;
+    border: 1px solid #c4c4c4; 
+    height: auto;
+}
+
+.card-case2{
+    width: 100%;
+    border: 1px solid #c4c4c4; 
+    height: auto;
+}
+
+.post{
+    margin-bottom: 80px;
+}
+
+.post-img img{
+    width: 300px;
+}
+
+.fa-star{
+    color: #FFE600;
+}
+
+.link{
+    color: #0232DC;
+}
+
+footer{
+    margin-top: 150px;
+    height: 370px;
+    background-color: #2c2c2c;
+    background-size: cover;
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.social h5{
+    border-bottom: 2px solid #077B8A;
+    margin-bottom: 20px;
+    width: 60px
+}
+
+.offices h5{
+    border-bottom: 2px solid #077B8A;
+    margin-bottom: 20px;
+    width: 70px
+}
+.getInTouch h5{
+    border-bottom: 2px solid #077B8A;
+    margin-bottom: 20px;
+    width: 130px;
+}   
+
+.social i, .getInTouch i{
+    font-size: 20px;
+    color: #077B8A;
+}
+
+.social .text{
+    color: white;
+    margin-left: 20px;
+}
+
+.social-div{
+    margin-bottom: 20px;
+}
+
+.get-link{
+    color: #077B8A;
+}
+
+.copyright{
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.fa-map-marker{
+    color: #FFE600;
+    margin-right: 5px;
+}
+
+.fa-certificate{
+    color: #5C3C92;
+    margin-right: 5px;
+}
+
+.text3, .text4{
+    margin-right: 7px; 
+}
+
+
+.marginBottom{
+    margin-bottom: 30px;
+}
+
+.marginTop{
+    margin-top: 0;
+}
+
+.marginTop i{
+    display: block;
+    margin: 10px auto;
+}
+
+.marginTop i span{
+    color: #494949;
+    font-family: "Poppins", sans-serif;
+    margin-left: 5px
+}
+
+.text2{
+    margin: 20px auto;
+}
+
+.vacancy{
+    padding-top: 20px;
+}
+
+.cardFooter{
+    background-color: #EADEFE;
+}

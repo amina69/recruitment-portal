@@ -1,0 +1,359 @@
+@media (max-width: 768px){
+
+    .nav-item .navbar-link {
+        margin: 0;
+        color: #2c2c2c;
+        width: auto;
+        padding: 12px 0 0 0;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .nav-item .navbar-link:hover{
+        border-bottom: 2px solid #077B8A
+    }
+    
+    .nav-item a{
+        display: block;
+    }
+
+    .navbar-nav{
+        align-items: flex-start;
+        float: none;
+        margin: 0;
+        background-color: white;
+        padding-bottom: 10px;
+    }
+
+    .navbar-brand img{
+        width: 40px;
+    }
+    
+    .navbar-brand img:first-child{
+        margin-left: 0;
+    }
+
+    .navbar-brand .logo-text{
+        width: 60px;
+    }
+
+    .mainHeader{
+        height: auto;
+    }
+
+    .header input, .header .first{
+        padding: 5px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-right: 0px;
+        width: 200px;
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .header button{
+        padding: 5px;
+        width: 200px;
+        font-size: 12px;
+    }
+    
+
+    .header h3{
+        font-size: 13px;
+    }
+
+    .carousel-caption{
+        top: 20%;
+        transform: translateY(-20%);
+    }
+
+    .whyUs-img{
+        text-align: center;
+    }
+
+    .whyUs-img img{
+        width: 350px;
+        height: 300px;
+    }
+
+    .whyUs-text p{
+        font-size: 14px;
+    }
+
+    .div-check span{
+        font-size: 12px;
+    }
+
+
+    .view-btn button{
+        width: 300px;
+    }
+
+    .card-case{
+        width: auto;
+        height: auto;
+        margin-bottom: 30px;
+    }
+
+    .card-case2{
+        width: auto;
+        height: auto;
+    }
+
+    .marginBottom{
+        margin-bottom: 0;
+    }
+
+    .marginTop i{
+        display: block;
+    }
+
+    .marginTop i span{
+        font-weight: 400;
+        font-size: 12px;
+    }
+    
+    .text2{
+        margin: 5px auto;
+        font-size: 14px
+    }
+
+    .text3, .text4{
+        font-size: 12px;
+    }
+
+    .card-img-top2{
+        height: 100px;
+        width: 80px;
+    }
+
+    .fa-map-marker{
+        margin-right: 10px;
+    }
+
+    .job-card{
+        height: 250px;
+        margin-bottom: 30px;
+    }
+
+    .job-card2{
+        height: 250px;
+    }
+
+    .post-img{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .post-img img{
+        width: 350px;
+    }
+
+    .post-text{
+        font-size: 15px;
+    }
+
+    .whyUs-text h3, .job-text h3{
+        font-size: 22px
+    }
+
+    footer{
+        height: auto;
+        padding-bottom: 30px;
+    }
+
+    .copyright{
+        font-size: 10px;
+    }
+
+    .social i, .getInTouch i{
+        font-size: 18px;
+    }
+
+    .social span, .getInTouch span, .offices p, .direct-msg{
+        font-size: 12px;
+    }
+
+    .news-card{
+        margin-bottom: 50px;
+    }
+
+    .card-footer span, .more-link{
+        font-size: 12px;
+    }
+
+    .vacancy{
+        font-size: 14px;
+    }
+
+    .vacancy-title{
+        font-size: 18px;
+    }
+    
+}
+
+
+@media (max-width: 992px) and (min-width: 768px) {
+
+    .nav-item .navbar-link {
+        margin: 0;
+        color: #2c2c2c;
+        width: auto;
+        padding: 20px 0 0 0;
+        text-align: center;
+    }
+
+    .nav-item .navbar-link:hover{
+        border-bottom: 2px solid #077B8A
+    }
+    
+    .nav-item a{
+        display: block;
+    }
+
+    .navbar-nav{
+        align-items: flex-start;
+        float: none;
+        margin: 0;
+        background-color: white;
+        padding-bottom: 10px;
+    }
+
+    .navbar-brand img{
+        width: 50px;
+    }
+    
+    .navbar-brand img:first-child{
+        margin-left: 0;
+    }
+
+    .navbar-brand .logo-text{
+        width: 80px;
+    }
+
+    .header input, .header .first{
+        padding: 10px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-right: 10px;
+        width: 250px;
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .header h3{
+        font-size: 20px;
+    }
+    
+    .header button{
+        padding: 10px;
+        width: 200px;
+        font-size: 14px;
+    }
+
+    .carousel-caption{
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .equal{
+        margin-bottom: 35px;
+    }
+
+    .post-img img{
+        width: 200px;
+    }
+
+    .post-text{
+        font-size: 14px;
+    }
+
+    .whyUs-img img{
+        width: 350px;
+        height: 400px;
+    }
+
+    .whyUs-text p{
+        font-size: 12px;
+    }
+
+
+    footer{
+        width: auto;
+    }
+
+    .job-card{
+        height: 250px;
+        margin-bottom: 0px;
+    }
+
+    .job-card2{
+        height: 250px;
+        margin-bottom: 0px;
+    }
+
+    .card-case{
+        width: auto;
+        margin-bottom: 0px;
+    }
+
+
+    .marginBottom{
+        margin-bottom: 10px;
+    }
+
+    .marginTop i{
+        display: block;
+    }
+
+    .marginTop i span{
+        font-weight: 400;
+        font-size: 12px;
+    }
+    
+    .text2{
+        margin: 5px auto;
+        font-size: 14px
+    }
+
+    .text3, .text4{
+        font-size: 12px;
+    }
+
+    .card-img-top{
+        height: 150px;
+    }
+
+    .card-img-top2{
+        height: 100px;
+        width: 80px;
+    }
+
+    .news-card{
+        height: 350px;
+        font-size: 14px;
+        margin-bottom: 0px;
+    }
+
+    .news-card2{
+        height: 350px;
+        font-size: 14px;
+    }
+
+
+    .link-color{
+        color: black;
+        font-weight: 500;
+        position: absolute;
+        bottom: 20px;
+    }
+
+    .div-check span{
+        font-size: 14px;
+    }
+
+    .check:last-child, .check-2:last-child{
+        margin-top: 10px;
+    }
+
+}
