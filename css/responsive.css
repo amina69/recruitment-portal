@@ -1,6 +1,6 @@
 @media (max-width: 768px){
 
-    .nav-item .navbar-link {
+    .nav-item .navbar-link, .nav-link {
         margin: 0;
         color: #2c2c2c;
         width: auto;
@@ -217,7 +217,7 @@
 
 @media (max-width: 992px) and (min-width: 768px) {
 
-    .nav-item .navbar-link {
+    .nav-item .navbar-link, .nav-link {
         margin: 0;
         color: #2c2c2c;
         width: auto;

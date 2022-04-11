@@ -20,8 +20,8 @@ body{
 }
 
 
-.nav-item .navbar-link {
-    color: rgb(44, 44, 44);
+.nav-item .navbar-link, .nav-link{
+    color: #2c2c2c;
     font-size: 15px;
     font-weight: 500;
     margin: auto 20px;
