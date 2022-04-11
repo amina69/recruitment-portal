@@ -147,12 +147,12 @@ li a{
 }
 
 .news-card{
-    height: 400px;
+    height: 450px;
     width: auto;
 }
 
 .news-card2{
-    height: 400px;
+    height: 450px;
     width: auto;
 }
 
@@ -204,24 +204,17 @@ li a{
     width: 90px;
 }
 
-
 .card-img-top{
-    height: 200px;
+    height: 250px;
 }
 
 .card-img{
-    height: 150px;
-    width: 100px;
+    height: 130px;
+    width: 130px;
 }
 
 .second-row{
     padding-top: 0;
-}
-
-.card-img-top2{
-    height: 130px;
-    width: 100px;
-    margin-top: 22px;
 }
 
 .card-case{
@@ -230,17 +223,12 @@ li a{
 }
 
 .card-case2{
-    width: 100%;
     border: 1px solid #c4c4c4; 
-    height: auto;
+    padding: 10px;
 }
 
 .marginBottom{
     margin-bottom: 30px;
-}
-
-.marginTop{
-    margin-top: 10px;
 }
 
 .marginTop i{

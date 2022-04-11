@@ -57,7 +57,7 @@
     }    
 
     .carousel-item h3{
-        font-size: 14px;
+        font-size: 18px;
         margin: 20px auto;
 
     }
@@ -94,6 +94,11 @@
 
     .view-btn button{
         width: 300px;
+    }
+
+    .card-img{
+        height: 120px;
+        width: 100px;
     }
 
     .card-case{
@@ -164,7 +169,13 @@
         font-size: 15px;
     }
 
-    .whyUs-text h3, .job-text h3{
+    .whyUs-text h3{
+        font-size: 22px;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    .job-text h3{
         font-size: 22px
     }
 
@@ -266,6 +277,7 @@
     .carousel-item h3 {
         margin: 100px auto;
         color: white;
+        font-size: 18px;
     }
 
     .equal{
@@ -273,11 +285,19 @@
     }
 
     .post-img img{
-        width: 200px;
+        width: 170px;
     }
 
     .post-text{
         font-size: 14px;
+    }
+
+    .post-name{
+        font-size: 14px;
+    }
+
+    .text-color{
+        font-size: 12px;
     }
 
     .whyUs-img img{
@@ -287,6 +307,11 @@
 
     .whyUs-text p{
         font-size: 12px;
+    }
+
+    .whyUs-text h3{
+        margin-top: 0px;
+        margin-bottom: 10px;
     }
 
 
@@ -395,6 +420,11 @@
         padding: 10px;
         width: 250px;
         font-size: 14px;
+    }
+
+    .carousel-item h3 {
+        margin: 100px auto;
+        color: white;
     }
 
 }
