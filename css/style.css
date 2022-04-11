@@ -112,14 +112,22 @@ li a{
 }
 
 .whyUs-img img{
-    width: 500px;
-    height: 400px;
+    height: 450px;
 }
 
 .whyUs-text h3, .job-text h3{
     text-align: center;
     font-weight: 700;
     margin-bottom: 50px;
+}
+
+.whyUs-text p{
+    border: 1px solid #077B8A;
+    background-color: #077B8A;
+    color: #ffffff;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 400;
 }
 
 .whyUs-text i{
@@ -132,6 +140,10 @@ li a{
 
 .job-card2{
     height: 100%;
+}
+
+.equal{
+    margin-bottom: 30px;
 }
 
 .news-card{
@@ -192,8 +204,14 @@ li a{
     width: 90px;
 }
 
+
 .card-img-top{
     height: 200px;
+}
+
+.card-img{
+    height: 150px;
+    width: 100px;
 }
 
 .second-row{
@@ -207,9 +225,8 @@ li a{
 }
 
 .card-case{
-    width: 100%;
-    border: 1px solid #c4c4c4; 
-    height: auto;
+    border: 1px solid #c4c4c4;
+    padding: 10px;
 }
 
 .card-case2{
@@ -218,12 +235,35 @@ li a{
     height: auto;
 }
 
+.marginBottom{
+    margin-bottom: 30px;
+}
+
+.marginTop{
+    margin-top: 10px;
+}
+
+.marginTop i{
+    display: block;
+    margin: 10px auto;
+}
+
+.marginTop i span{
+    color: #494949;
+    font-family: "Poppins", sans-serif;
+    margin-left: 5px
+}
+
+.text2{
+    margin: 20px auto;
+}
+
 .post{
     margin-bottom: 80px;
 }
 
 .post-img img{
-    width: 300px;
+    width: 200px;
 }
 
 .fa-star{
@@ -296,30 +336,6 @@ footer{
 
 .text3, .text4{
     margin-right: 7px; 
-}
-
-
-.marginBottom{
-    margin-bottom: 30px;
-}
-
-.marginTop{
-    margin-top: 0;
-}
-
-.marginTop i{
-    display: block;
-    margin: 10px auto;
-}
-
-.marginTop i span{
-    color: #494949;
-    font-family: "Poppins", sans-serif;
-    margin-left: 5px
-}
-
-.text2{
-    margin: 20px auto;
 }
 
 .vacancy{
