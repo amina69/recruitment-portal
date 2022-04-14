@@ -12,11 +12,12 @@
     <link href="css/responsive.css" rel="stylesheet">  
 </head>
 
-<body>
+<body onload="myFunction()">
 
     <!--NAVBAR-->
-    <section>
-    <nav class="container navbar navbar-expand-lg navbar-light">
+    <section class="white">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
             <div class="navbar-brand">
                 <span class="navbar-brand"><img src="assets/logo-letter-r-png-transparent-png 1.png">
                     <img class="logo-text" src="assets/RECRUITMENT APPLICATION PORTAL.jpg">
@@ -54,17 +55,18 @@
                             </li>
 
                             <li class="nav-item">
-                                <a class="navbar-link" href="#">Sign In</a>
+                                <button class=" my-2 my-sm-0">Sign In</button>
                             </li>
                         </ul>
                 </div>
+            </div>
             </nav>
         </section>
     
     
 <!--HEADER-->
 <section>
-    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
             <ol class="carousel-indicators">
               <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
               <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
@@ -76,7 +78,7 @@
                 <img src="assets/header1.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-md-block header d-flex h-100 justify-content-center">
                     <div class="row">
-                        <div class="col-md-12">
+                        <div class="col-md-12 carouselInput">
                             <h3>Get The Best Services And The Job Of Your Dreams</h3>
                             <input class="first" type="search" placeholder="Jobs, People, Companies">
                             <input class="second" type="search" placeholder="Location">
@@ -87,7 +89,7 @@
               </div>
               <div class="carousel-item">
                 <img src="assets/header2.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-md-block header d-flex h-100 justify-content-center">
+                    <div class="carousel-caption d-md-block header d-flex h-100 justify-content-center">
                     <div class="row">
                         <div class="col-md-12">
                             <h3>Meet Professionals... Full Timers And freelancers Alike</h3>
@@ -140,7 +142,7 @@
     <section class="spacing-one">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 whyUs-img text-center">
+                <div class="col-md-6 whyUs-img">
                     <img src="assets/job whyus.webp">
                 </div>
 
@@ -403,7 +405,7 @@
                             <h6 class="title2">Hameeda Salman</h6>
                             <div class="text2">UIUX Designer</div>
                             <i class="fa fa-certificate"><span class="card-text text3">6 Years Experience</span></i>
-                            <i class="fa fa-map-marker" aria-hidden="true"><span class="card-text text4"></span></i>
+                            <i class="fa fa-map-marker" aria-hidden="true"><span class="card-text text4">Kano, Nigeria</span></i>
                         </div>
                     </div>
                 </div>
@@ -593,5 +595,6 @@
 
 <script src="js/jquery.slim.min.js"></script>
 <script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
 
 </html>
