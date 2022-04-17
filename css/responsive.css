@@ -90,6 +90,10 @@
         width: 100%;
     }
 
+    .overlay{
+        top: 50%;
+    }
+
     .spacing-one{
         padding-top: 550px;
     }
@@ -328,6 +332,10 @@
     .carousel{
         position:absolute;
         top:85px;
+    }
+
+    .overlay{
+        top: 30%;
     }
 
     .spacing-one{
